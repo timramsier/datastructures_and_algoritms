@@ -1,0 +1,10 @@
+{
+  "name": "google",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tim Ramsier <tim.ramsier@dictionary.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^13.5.0"
+  }
+}
