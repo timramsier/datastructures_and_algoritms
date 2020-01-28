@@ -5,6 +5,8 @@
   "author": "Tim Ramsier <tim.ramsier@dictionary.com>",
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^13.5.0"
+    "@types/node": "^13.5.0",
+    "@types/treeify": "^1.0.0",
+    "treeify": "^1.1.0"
   }
 }
