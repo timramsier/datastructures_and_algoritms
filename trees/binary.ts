@@ -21,6 +21,16 @@ class BinaryNode implements IsBinaryNode {
   }
 }
 
+class ExtendedBinaryNode extends BinaryNode {
+  public parent: IsBinaryNode;
+  constructor(value: number) {
+    super(value);
+  }
+  setParent(parent: IsBinaryNode): void {
+    this.parent = parent;
+  }
+}
+
 /**
  * A basic unbalanced Binary Tree
  */
@@ -98,6 +108,13 @@ export class BasicBinaryTree implements IsBinaryTree {
 }
 
 // balanced binary tree
+
+export class AVLBinaryTree implements IsBinaryTree {
+  public name: string;
+  constructor() {
+    this.name = "AVLBinaryTree";
+  }
+}
 
 // red/black tree
 

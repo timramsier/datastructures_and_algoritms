@@ -4,9 +4,14 @@
   "main": "index.js",
   "author": "Tim Ramsier <tim.ramsier@dictionary.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha --file test/*.test.js"
+  },
   "dependencies": {
     "@types/node": "^13.5.0",
     "@types/treeify": "^1.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1",
     "treeify": "^1.1.0"
   }
 }

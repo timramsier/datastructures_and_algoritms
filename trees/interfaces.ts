@@ -2,6 +2,9 @@ export interface IsBinaryNode {
   value: number;
   left: IsBinaryNode | undefined;
   right: IsBinaryNode | undefined;
+  parent?: IsBinaryNode;
+  setParent?(parent: IsBinaryNode): void;
+  getBalanceValue?(): number;
   setValue(value: number): void;
   setLeft(node: IsBinaryNode): void;
   setRight(node: IsBinaryNode): void;

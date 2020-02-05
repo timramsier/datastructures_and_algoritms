@@ -1,4 +1,4 @@
-import { BasicBinaryTree } from "./binary";
+import { BasicBinaryTree, AVLBinaryTree } from "./binary";
 import { IsBinaryTree } from "./interfaces";
 const treeify = require("treeify");
 
@@ -18,4 +18,5 @@ ${treeify.asTree(binaryTree.getRoot(), true)}
 
 (function() {
   testSearchTree(new BasicBinaryTree());
+  testSearchTree(new AVLBinaryTree());
 })();
