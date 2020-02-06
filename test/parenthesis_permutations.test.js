@@ -7,7 +7,7 @@ const testSet = (num, results) => {
   });
 };
 
-describe("Heaps Permutation", () => {
+describe("Valid Parenthesis Permutation Generator", () => {
   testSet(1, ["()"]);
   testSet(2, ["(())", "()()"]);
   testSet(3, ["((()))", "(()())", "(())()", "()(())", "()()()"]);
