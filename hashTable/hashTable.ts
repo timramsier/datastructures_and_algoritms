@@ -11,11 +11,11 @@ function testHashtable(hashTable: IsHashTable) {
 
   console.log(`${hashTable.name}`);
 
-  Object.keys(testObject).forEach(function(key: string): void {
+  Object.keys(testObject).forEach((key: string): void => {
     hashTable.set(key, testObject[key]);
   });
 
-  Object.keys(testObject).forEach(function(key: string): void {
+  Object.keys(testObject).forEach((key: string): void => {
     console.log(
       `Key of '${key}' contains value of '${hashTable.get(
         key
